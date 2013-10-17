@@ -5,8 +5,7 @@ require.config({
 	    },
 		shims: {
 			'vwf/view/xapi/xapiwrapper': {
-				deps: ['vwf/view/editorview/sha256', "vwf/view/editorview/_3DRIntegration"],
-				exports: 'XAPIWrapper'
+				deps: ['vwf/view/editorview/sha256', "vwf/view/editorview/_3DRIntegration"]
 			}
 		},
 	    waitSeconds: 15

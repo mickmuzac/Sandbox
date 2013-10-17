@@ -2,7 +2,7 @@
  * Provide a per-object interface to the xAPIWrapper
  ***************************/
 
-define( ["module", "vwf/view", "vwf/view/xapi/xapiwrapper"], function( module, view ) {
+define( ["module", "vwf/view", "vwf/view/xapi/xapiwrapper", "vwf/view/xAPIVerbs/verbs.min"], function( module, view ) {
 
 	return view.load( module, {
 
